@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "default",
+         "patterns": [""],
+         "responses": ["Sorry! Can you repeat","I beg your pardon"],
+         "context_set": ""
+        },
+	{"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","Bye! Takecare"],
+         "context_set": ""
+        },
+	{"tag": "college",
+         "patterns": ["university", "college", "NIT details"],
+         "responses": ["NIT Andhra Pradesh https://www.nitandhra.ac.in/main/"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["name","what is your name?", "tell me your name"],
+         "responses": ["I am Snaps","My name is Snaps","You can call me Snaps"],
+         "context_set": ""
+        },
+        {"tag": "courses",
+         "patterns": ["how many courses", "Graduation","BTech","courses"],
+         "responses": ["There are mainly 8 courses are offered in UG, they are CSE,ECE,EEE,CIVIL,MECHANICAL,CHEMICAL,METALLAURGY,BIOTECH"],
+         "context_set": ""
+        },
+        {"tag": "placements",
+         "patterns": ["what are placements", "package", "placements"],
+         "responses": ["For detailed placements :https://www.nitandhra.ac.in/main/tap/Placements.pdf"],
+         "context_set": ""
+        },
+        {"tag": "Fest",
+         "patterns": ["what is fest", "vulcanzy","Fest"],
+         "responses": ["Vulcanzy is the NIT Andhra Pradesh Technical and Cultural Fest http://vulcanzy.in/"],
+         "context_set": ""
+        }
+   ]
+}
+
